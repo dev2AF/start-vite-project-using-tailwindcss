@@ -1,16 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-</details>
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -27,7 +14,7 @@
   npm -v
   ```
 
-  - Node
+ - Node
 
   ```sh
   sudo apt install -y curl
