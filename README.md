@@ -16,21 +16,21 @@
 
  - Node
 
-  ```sh
-  sudo apt install -y curl
-  ```
+    ```sh
+    sudo apt install -y curl
+    ```
 
-  ```sh
-  curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
-  ```
+    ```sh
+    curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
+    ```
 
-  ```sh
-  sudo apt install -y nodejs
-  ```
+    ```sh
+    sudo apt install -y nodejs
+    ```
 
-  ```sh
-  node -v
-  ```
+    ```sh
+    node -v
+    ```
 
 ### Create Vite Project
 
