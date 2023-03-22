@@ -8,7 +8,7 @@ npm create vite@latest
 (2). TAILWIND CSS
 a. Terminal
 npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init
+npx tailwindcss init -p
 
 b. tailwind.config.js
 
