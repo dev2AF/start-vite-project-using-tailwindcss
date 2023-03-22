@@ -16,7 +16,6 @@ b. tailwind.config.js
 
 ---
 
-/\*_ @type {import('tailwindcss').Config} _/
 
 module.exports = {
 content: ["./src/**/*.{js,jsx}"],
