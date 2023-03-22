@@ -1,29 +1,84 @@
-# start-vite-project
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+</details>
 
-Node & npm upgrade
+<!-- GETTING STARTED -->
 
-(1). VITE
-npm create vite@latest
+## Getting Started
 
-(2). TAILWIND CSS
-a. Terminal
+### Prerequisites
+
+- npm
+
+  ```sh
+  npm install -g npm@latest
+  ```
+
+  ```sh
+  npm -v
+  ```
+
+  - Node
+
+  ```sh
+  sudo apt install -y curl
+  ```
+
+  ```sh
+  curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
+  ```
+
+  ```sh
+  sudo apt install -y nodejs
+  ```
+
+  ```sh
+  node -v
+  ```
+
+### Create Vite Project
+
+1. Vite installation
+
+```sh
+   npm create vite@latest
+```
+
+2. Tailwind installation
+
+- Terminal
+
+```sh
 npm install -D tailwindcss postcss autoprefixer
+```
+
+```sh
 npx tailwindcss init -p
+```
 
-b. tailwind.config.js
+3. Tailwind config
 
----
+- tailwind.config.js
 
----
-
+```js
+/** @type {import('tailwindcss').Config} */
 
 module.exports = {
-content: ["./src/**/*.{js,jsx}"],
-theme: {
-extend: {
-screens: {
-xs: "400px",
-// => @media (min-width: 640px) { ... }
+  content: ["./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      screens: {
+        xs: "400px",
+        // => @media (min-width: 640px) { ... }
 
         sm: "640px",
         // => @media (min-width: 640px) { ... }
@@ -49,18 +104,21 @@ xs: "400px",
           "0 0 1px 0 rgba(189,192,207,0.06),0 10px 16px -1px rgba(189,192,207,0.4)",
       },
     },
-
-},
-plugins: [],
+  },
+  plugins: [],
 };
+```
 
----
+- src/index.css
 
----
+  ```css
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  ```
 
-c. src/index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+3. Run
 
-(3) npm run dev
+```sh
+  npm run dev
+```
