@@ -9,6 +9,10 @@
   ```sh
   npm install -g npm@latest
   ```
+  
+  ```sh
+  npm install
+  ```
 
   ```sh
   npm -v
