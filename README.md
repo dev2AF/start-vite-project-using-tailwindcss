@@ -9,10 +9,6 @@
   ```sh
   npm install -g npm@latest
   ```
-  
-  ```sh
-  npm install
-  ```
 
   ```sh
   npm -v
@@ -43,6 +39,11 @@
 ```sh
    npm create vite@latest
 ```
+  
+  ```sh
+  npm install
+  ```
+
 
 2. Tailwind installation
 
